@@ -65,8 +65,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryManager" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
-            <!-- BSOD sometimes -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\AuxilarySensor" Name="qccamauxsensor8150.inf" ID="qccamauxsensor8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\AVStream" Name="qccamavs8150.inf" ID="qccamavs8150"/>
